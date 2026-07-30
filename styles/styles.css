@@ -92,7 +92,7 @@ body {
 .nav a:hover {
   color: var(--pink);
 }
-/* BOOTSTRAP NAVBAR */
+/* BOOTSTRAP NAVBAR 
 
 .navbar{
 background:rgba(15,15,18,.90);
@@ -118,7 +118,8 @@ border:none;
 }
 .navbar-toggler:focus{
 box-shadow:none;
-}
+}*/
+
 /* CONTENIDO PRINCIPAL */
 
 .main {
