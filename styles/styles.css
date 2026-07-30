@@ -92,8 +92,35 @@ body {
 .nav a:hover {
   color: var(--pink);
 }
+/* BOOTSTRAP NAVBAR */
 
+.navbar{
+background:rgba(15,15,18,.90);
+backdrop-filter:blur(15px);
+padding:15px 8%;
+}
+.navbar-brand{
+margin-right:40px;
+}
+.navbar-nav{
+gap:20px;
+}
+.nav-link{
+color:white !important;
+font-weight:600;
+transition:.3s;
+}
+.nav-link:hover{
+color:var(--pink) !important;
+}
+.navbar-toggler{
+border:none;
+}
+.navbar-toggler:focus{
+box-shadow:none;
+}
 /* CONTENIDO PRINCIPAL */
+
 .main {
   width: min(1200px, 90%);
   margin: auto;
@@ -253,15 +280,11 @@ a {
   display: inline-block;
   margin: 20px;
   padding: 12px 24px;
-
   background: linear-gradient(45deg, var(--pink), var(--orange));
-
   color: var(--white);
   text-decoration: none;
   font-weight: bold;
-
   border-radius: 30px;
-
   transition: .3s;
 }
 
@@ -279,26 +302,35 @@ a {
   margin: auto;
   max-width: 450px;
 }
+/* CAROUSEL */
 
+.carousel{
+border-radius:20px;
+overflow:hidden;
+box-shadow:var(--shadow);
+}
+.carousel img{
+height:500px;
+object-fit:cover;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+filter:invert(1);
+}
 /* FOOTER */
 .footer {
   margin-top: 60px;
   padding: 35px;
-
   text-align: center;
-
   background: #080808;
 }
-
 .footer a {
   color: var(--pink);
   text-decoration: none;
 }
-
 .footer a:hover {
   color: var(--orange);
 }
-
 /* SCROLLBAR */
 ::-webkit-scrollbar {
   width: 10px;
@@ -314,75 +346,6 @@ a {
 }
 
 /* RESPONSIVE */
-/* MOBILE */
-@media (max-width: 900px) {
-
-  .header {
-    flex-direction: column;
-    gap: 20px;
-  }
- .logo{
-    width: 50px;
-  }
-  .nav {
-    justify-content: center;
-  }
-
-  .nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .section {
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    gap: 50px;
-    padding: 40px;
-    width: 100%;
-  }
-
-  .article {
-    order: 2;
-  }
-
-  .figure {
-    order: 1;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.6rem;
-  }
-
-  h3 {
-    font-size: 1.3rem;
-  }
-
-  .profile-img {
-    max-width:100%;
-    height: 100%;
-  }
-}
-/* SMALL MOBILES*/
-@media (max-width: 480px){
-.logo{
-  width: 40px;
-}
-.header{
-  padding: 15px 5%;
-}
-.nav ul{
-  gap: 12px;
-}
-.nav a{
-  font-size: .9rem;
-}
-}
 /* TABLET */
 @media (min-width:768px){
 .section{
