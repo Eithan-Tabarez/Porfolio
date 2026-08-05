@@ -291,20 +291,16 @@ li {
   max-width: 450px;
 }
 /* CAROUSEL */
+#carouselExampleCaptions{
+  position: relative;
+ width:100%;
+  max-width:600px;
+  margin:auto;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
 
-.carousel{
-border-radius:20px;
-overflow:hidden;
-box-shadow:0 10px 30px rgba(0,0,0,.4);
-}
-.carousel img{
-height:500px;
-object-fit:cover;
-}
-.carousel-control-next-icon,
-.carousel-control-prev-icon{
-filter:invert(1);
-}
 /* FOOTER */
 .footer {
   margin-top: 60px;
