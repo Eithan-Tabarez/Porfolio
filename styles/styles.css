@@ -76,6 +76,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   transition: .3s;
+  margin-right: 40px;
 }
 
 .nav a:hover {
@@ -84,9 +85,8 @@ body {
 /* BOOTSTRAP NAVBAR */
 
 .navbar{
-background:rgba(15,15,18,.90);
-backdrop-filter:blur(15px);
 padding:15px 8%;
+margin-bottom:40px;
 }
 .navbar-brand{
 margin-right:40px;
@@ -155,7 +155,7 @@ box-shadow:none;
   align-items:center;
   gap:30px;
   padding:40px;
-  margin-bottom:70px;
+  margin-bottom:40px;
   background:#0f0f12;
   border-radius:25px;
   box-shadow:0 10px 30px rgba(0,0,0,.4);
@@ -242,8 +242,9 @@ li {
 
 /* LOGO */
 .logo {
-  width: 70px;
-  height: 70px;
+  margin-left: 150px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 50%;
   transition: .3s;
