@@ -114,7 +114,7 @@ body {
   box-shadow: none;
 }
 
-/* CONTENIDO PRINCIPAL */
+/* CONTENIDO PRINCIPAL
 .main {
   width: 90%;
   max-width: 1200px;
@@ -124,7 +124,7 @@ body {
   display: grid;
   grid-template-areas: "sobre" "proyectos" "video";
   gap: 40px;
-}
+} */
 
 /* GRID AREAS */
 #sobre-mi {
@@ -185,7 +185,12 @@ body {
   flex: 1;
   min-width: 300px;
 }
-
+/*FORMULARIO*/
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 /* FIGURE */
 .figure {
   flex: 1 1 40%;
